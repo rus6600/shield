@@ -615,6 +615,15 @@ mark,
   margin-right: 20px;
 }
 
+
+@media (max-width: 37.5em) {
+  .img-fluid-logo-divider-line {
+    margin-left: 2%;
+  }
+  
+}
+
+
 /* line 14, node_modules/bootstrap/scss/_images.scss */
 .img-thumbnail {
   padding: 0.25rem;
@@ -16184,12 +16193,11 @@ table th {
 .footer__icons {
   display: flex;
   margin-top: 10px;
+  gap: 10px;
   align-items: center;
 }
 
-.footer__icons a:not(:last-child) {
-  margin-inline: 10px;
-}
+
 
 .footer__icon {
   height: 20px;
@@ -16354,6 +16362,14 @@ table th {
   -webkit-box-flex: 1;
   -ms-flex: auto;
   flex: auto;
+}
+
+@media (max-width: 37.5em) {
+  .why-office-container .content-container .ms-why-office-icons .image-container {
+    max-width: 100%;
+
+  }
+  
 }
 
 /* new image contaainer end */
